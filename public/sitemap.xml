@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- MAIN PAGES -->
+  <url>
+    <loc>https://gurukrupa-construction.web.app/</loc>
+    <lastmod>2026-04-16</lastmod>
+  </url>
+
+  <url>
+    <loc>https://gurukrupa-construction.web.app/about</loc>
+    <lastmod>2026-04-16</lastmod>
+  </url>
+
+  <url>
+    <loc>https://gurukrupa-construction.web.app/services</loc>
+    <lastmod>2026-04-16</lastmod>
+  </url>
+
+  <url>
+    <loc>https://gurukrupa-construction.web.app/gallery</loc>
+    <lastmod>2026-04-16</lastmod>
+  </url>
+
+  <url>
+    <loc>https://gurukrupa-construction.web.app/contact</loc>
+    <lastmod>2026-04-16</lastmod>
+  </url>
+
+  <!-- SERVICE DETAIL PAGES -->
+  <url>
+    <loc>https://gurukrupa-construction.web.app/service/home-plan</loc>
+    <lastmod>2026-04-19</lastmod>
+  </url>
+
+  <url>
+    <loc>https://gurukrupa-construction.web.app/service/3d-elevation</loc>
+    <lastmod>2026-04-19</lastmod>
+  </url>
+
+  <url>
+    <loc>https://gurukrupa-construction.web.app/service/rcc-designing</loc>
+    <lastmod>2026-04-19</lastmod>
+  </url>
+
+  <url>
+    <loc>https://gurukrupa-construction.web.app/service/construction</loc>
+    <lastmod>2026-04-19</lastmod>
+  </url>
+
+  <url>
+    <loc>https://gurukrupa-construction.web.app/service/renovation</loc>
+    <lastmod>2026-04-19</lastmod>
+  </url>
+
+  <url>
+    <loc>https://gurukrupa-construction.web.app/service/interior-design</loc>
+    <lastmod>2026-04-19</lastmod>
+  </url>
+
+  <url>
+    <loc>https://gurukrupa-construction.web.app/service/colouring</loc>
+    <lastmod>2026-04-19</lastmod>
+  </url>
+
+</urlset>

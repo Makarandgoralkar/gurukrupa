@@ -1,4 +1,4 @@
-# Logs
+# ================= LOG FILES =================
 logs
 *.log
 npm-debug.log*
@@ -7,16 +7,30 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# ================= DEPENDENCIES =================
 node_modules
+
+# ================= BUILD FILES =================
 dist
 dist-ssr
+
+# ================= ENV FILES =================
+.env
 *.local
 
-# Editor directories and files
+# ================= FIREBASE =================
+.firebase
+
+# ================= EDITOR FILES =================
 .vscode/*
 !.vscode/extensions.json
 .idea
+
+# ================= SYSTEM FILES =================
 .DS_Store
+Thumbs.db
+
+# ================= VS / WINDOWS =================
 *.suo
 *.ntvs*
 *.njsproj

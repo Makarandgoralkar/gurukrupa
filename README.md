@@ -209,28 +209,65 @@ This project is developed for business and demonstration purposes.
 
 ---
 
-## 📸 Screenshots
+## 📸 Screenshots  
 
-*(Add your screenshots in /screenshots folder)*
+*(All screenshots are stored inside `/screenshots` folder)*
 
-### 🏠 Home Page
+---
 
+### 🏠 Home Page  
 ![Home](screenshots/home.png)
 
-### 🏗️ Services Page
+---
 
+### 📖 About Page  
+![About](screenshots/about.png)
+
+---
+
+### 🏗️ Services Page  
 ![Services](screenshots/services.png)
 
-### 🖼️ Gallery
 
+#### 🏠 Home Plan  
+![Home Plan](screenshots/service-home-plan.png)
+
+#### 🏢 3D Elevation  
+![3D Elevation](screenshots/service-3d.png)
+
+#### 🧱 RCC Design  
+![RCC](screenshots/service-rcc.png)
+
+#### 🏗️ Construction  
+![Construction](screenshots/service-construction.png)
+
+#### 🔨 Renovation  
+![Renovation](screenshots/service-renovation.png)
+
+#### 🎨 Interior Design  
+![Interior](screenshots/service-interior.png)
+
+#### 🎨 Colouring  
+![Colouring](screenshots/service-colouring.png)
+
+---
+
+### 🖼️ Gallery  
 ![Gallery](screenshots/gallery.png)
 
-### 📊 Admin Dashboard
+---
 
+### 📞 Contact Page  
+![Contact](screenshots/contact.png)
+
+---
+
+### 📊 Admin Dashboard  
 ![Dashboard](screenshots/dashboard.png)
 
-### 💬 Chat System
+---
 
+### 💬 Chat System  
 ![Chat](screenshots/chat.png)
 
 ---

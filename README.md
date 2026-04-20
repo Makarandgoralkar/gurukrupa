@@ -1,16 +1,236 @@
-# React + Vite
+# 🏗️ Shri Gurukrupa Constructions
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 **Best Construction Company in Bhusawal**
 
-Currently, two official plugins are available:
+A **Modern Construction Company Website with Admin Dashboard** built using **React.js + Firebase**.
+We build **premium homes & commercial spaces** with modern architecture, RCC expertise, and trusted engineering excellence.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🌐 Live Application
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔗 **Website (Frontend)**
+https://gurukrupa-construction.web.app/
 
-## Expanding the ESLint configuration
+🔗 **Admin Dashboard**
+https://gurukrupa-construction.web.app/admin-login
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ⭐ Highlights
+
+* ⭐ **4.8 Rating**
+* 🏗️ **100+ Projects Completed**
+* 👷 **25+ Engineers**
+* 😊 **43+ Happy Clients**
+* 📅 **9+ Years Experience**
+
+---
+
+## 📌 About The Project
+
+**Shri Gurukrupa Constructions** is a professional construction platform that provides:
+
+* 🌐 Customer-facing website
+* 🔐 Admin dashboard for management
+* 🖼️ Dynamic gallery system
+* 💬 Customer inquiry system
+
+We deliver **high-quality residential and commercial construction** with modern design, strong structure, and trusted execution.
+
+---
+
+## 📌 Features
+
+### 🌐 Customer Website
+
+* 🏠 Modern Home Page with CTA (Get Free Quote / View Projects)
+* 🏗️ Services showcase with detailed pages
+* 🖼️ Dynamic Gallery (real-time updates)
+* 📞 Contact Form (stores customer messages)
+* 📱 Fully Responsive Design (Mobile + Desktop)
+* 🔍 SEO Optimized (robots.txt + sitemap.xml)
+
+---
+
+### 🔐 Admin Dashboard
+
+* 🔑 Secure Login Authentication (Firebase Auth)
+* 🖼️ Upload / Delete Gallery Images
+* 💬 View Customer Messages (Chat UI)
+* 👤 Profile Image Upload / Remove
+* ⚡ Real-time Database Updates
+
+---
+
+## 🏗️ Services Offered
+
+* 🏠 Home Planning (Smart Architecture)
+* 🧱 RCC Designing (Strong & Durable Structures)
+* 🏗️ Construction (End-to-End Execution)
+* 🏢 Commercial Projects
+* 🎨 Interior Design (Modern & Elegant)
+* 🔨 Renovation (Upgrade Existing Spaces)
+* 🎨 Colouring (Premium Painting Solutions)
+* 🏡 3D Elevation (Realistic Designs)
+
+---
+
+## 🧱 Tech Stack
+
+### Frontend
+
+* React.js (Vite)
+* React Router
+* CSS (Custom Styling)
+* SweetAlert2
+* React Icons
+
+### Backend / Database
+
+* Firebase Realtime Database
+* Firebase Authentication
+* Firebase Hosting
+
+---
+
+## 🚀 Production Features
+
+* 🔐 Secure Admin Login
+* ⚡ Real-time Data Sync
+* ☁️ Firebase Hosting Deployment
+* 📱 Fully Responsive UI
+* 📦 Optimized Build (Vite)
+
+---
+
+## 📁 Project Structure
+
+```id="gurukrupa-structure"
+gurukrupa/
+├── public/
+│   ├── images/
+│   ├── robots.txt
+│   └── sitemap.xml
+│
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── styles/
+│   ├── firebase.js
+│   └── main.jsx
+│
+├── package.json
+└── README.md
+```
+
+---
+
+## 🗄️ Database Design (Firebase)
+
+### Collections:
+
+* `users` → Admin profile data
+* `gallery` → Uploaded images
+* `messages` → Contact form messages
+
+### Relationships:
+
+* Admin manages gallery content
+* Users send messages via contact form
+* Messages are displayed in admin dashboard
+
+---
+
+## 👷 Team
+
+### 👨‍🔧 Project Engineer
+
+**Er. Prafulla Wankhede**
+Senior Project Engineer
+
+* 10+ years experience
+* Expertise in structural execution & project planning
+* Delivered multiple high-quality projects
+
+---
+
+## ▶️ How to Run the Project
+
+### 🔧 Local Setup
+
+```bash id="gurukrupa-setup"
+git clone https://github.com/Makarandgoralkar/gurukrupa.git
+cd gurukrupa
+npm install
+npm run dev
+```
+
+---
+
+## 🚀 Deployment (Firebase)
+
+```bash id="gurukrupa-deploy"
+npm run build
+firebase deploy
+```
+
+---
+
+## 📞 Contact
+
+📍 Bhusawal, Maharashtra
+📞 +91 8999916870
+✉️ [shrigurukrupac@gmail.com](mailto:shrigurukrupac@gmail.com)
+
+---
+
+## 🌐 Social Media
+
+* 📸 Instagram
+* 👍 Facebook
+
+---
+
+## 👨‍💻 Developer
+
+**Makarand Goralkar**
+Full Stack Developer
+
+📧 [makarandgoralkar27@gmail.com](mailto:makarandgoralkar27@gmail.com)
+
+---
+
+## 📄 License
+
+This project is developed for business and demonstration purposes.
+
+© 2026 Shri Gurukrupa Constructions. All Rights Reserved.
+
+---
+
+## 📸 Screenshots
+
+*(Add your screenshots in /screenshots folder)*
+
+### 🏠 Home Page
+
+![Home](screenshots/home.png)
+
+### 🏗️ Services Page
+
+![Services](screenshots/services.png)
+
+### 🖼️ Gallery
+
+![Gallery](screenshots/gallery.png)
+
+### 📊 Admin Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+### 💬 Chat System
+
+![Chat](screenshots/chat.png)
+
+---

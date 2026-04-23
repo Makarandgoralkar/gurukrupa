@@ -4,12 +4,12 @@
   <!-- MAIN PAGES -->
   <url>
     <loc>https://gurukrupa-construction.web.app/</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-23</lastmod>
   </url>
 
   <url>
     <loc>https://gurukrupa-construction.web.app/about</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-23</lastmod>
   </url>
 
   <url>
@@ -62,5 +62,41 @@
     <loc>https://gurukrupa-construction.web.app/service/colouring</loc>
     <lastmod>2026-04-19</lastmod>
   </url>
+
+  <url>
+  <loc>https://gurukrupa-construction.web.app/projects</loc>
+  <lastmod>2026-04-23</lastmod>
+  </url>
+
+  <url>
+  <loc>https://gurukrupa-construction.web.app/projects/1</loc>
+  <lastmod>2026-04-23</lastmod>
+</url>
+
+<url>
+  <loc>https://gurukrupa-construction.web.app/projects/2</loc>
+  <lastmod>2026-04-23</lastmod>
+</url>
+
+<url>
+  <loc>https://gurukrupa-construction.web.app/projects/3</loc>
+  <lastmod>2026-04-23</lastmod>
+</url>
+
+<url>
+  <loc>https://gurukrupa-construction.web.app/projects/4</loc>
+  <lastmod>2026-04-23</lastmod>
+</url>
+
+<url>
+  <loc>https://gurukrupa-construction.web.app/projects/5</loc>
+  <lastmod>2026-04-23</lastmod>
+</url>
+
+<url>
+  <loc>https://gurukrupa-construction.web.app/projects/6</loc>
+  <lastmod>2026-04-23</lastmod>
+</url>
+
 
 </urlset>

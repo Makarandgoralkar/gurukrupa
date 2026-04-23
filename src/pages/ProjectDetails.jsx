@@ -8,7 +8,16 @@ const projectsData = [
     location: "Bhusawal",
     type: "Residential",
     image: "/images/project1.jpg",
-    description: "Luxury villas with premium amenities and modern architecture."
+    description:
+      "A premium luxury villa designed with modern architecture and spacious interiors.",
+    details: [
+      "4BHK Luxury Villa with private garden",
+      "Modern elevation with glass & stone finish",
+      "Premium Italian flooring",
+      "Modular kitchen with smart storage",
+      "Private parking & security system",
+      "Built-up area: 3200 sq.ft"
+    ]
   },
   {
     id: 2,
@@ -16,7 +25,16 @@ const projectsData = [
     location: "Jalgaon",
     type: "Residential",
     image: "/images/project2.jpg",
-    description: "Modern apartments with smart features and elegant design."
+    description:
+      "Contemporary apartments designed for urban lifestyle with smart features.",
+    details: [
+      "2BHK & 3BHK luxury apartments",
+      "Smart home automation features",
+      "Gym, garden & clubhouse facilities",
+      "Earthquake-resistant structure",
+      "24/7 security with CCTV",
+      "Built-up area: 1100–1800 sq.ft"
+    ]
   },
   {
     id: 3,
@@ -24,7 +42,16 @@ const projectsData = [
     location: "Nashik",
     type: "Residential",
     image: "/images/project3.jpg",
-    description: "Premium living spaces in prime Nashik locations."
+    description:
+      "High-end residential building offering comfort and premium lifestyle.",
+    details: [
+      "Multi-storey premium apartments",
+      "Elevator & power backup system",
+      "Designer lobby and entrance",
+      "Children play area",
+      "Rooftop garden & sitting area",
+      "Prime city location"
+    ]
   },
   {
     id: 4,
@@ -32,7 +59,16 @@ const projectsData = [
     location: "Pune",
     type: "Commercial",
     image: "/images/project4.jpg",
-    description: "Modern office interiors designed for productivity."
+    description:
+      "Modern office interiors designed to improve productivity and aesthetics.",
+    details: [
+      "Open workspace layout",
+      "Ergonomic furniture design",
+      "LED lighting system",
+      "Conference & meeting rooms",
+      "Minimalist corporate design",
+      "High-speed network setup"
+    ]
   },
   {
     id: 5,
@@ -40,7 +76,16 @@ const projectsData = [
     location: "Pune",
     type: "Commercial",
     image: "/images/project5.jpg",
-    description: "Iconic skyline business district developments."
+    description:
+      "A landmark commercial skyline project with premium business infrastructure.",
+    details: [
+      "High-rise commercial towers",
+      "Glass facade modern architecture",
+      "Retail + office space integration",
+      "Basement parking facility",
+      "Energy-efficient design",
+      "City landmark development"
+    ]
   },
   {
     id: 6,
@@ -48,7 +93,16 @@ const projectsData = [
     location: "Mumbai",
     type: "Commercial",
     image: "/images/project6.jpg",
-    description: "Premium glass facade corporate office spaces."
+    description:
+      "Ultra-modern corporate office building with glass architecture.",
+    details: [
+      "Full glass elevation structure",
+      "Smart office automation system",
+      "Central air conditioning",
+      "Fire safety compliance system",
+      "Luxury reception area",
+      "IT & startup friendly workspace"
+    ]
   }
 ];
 
@@ -59,23 +113,22 @@ function ProjectDetails() {
   const project = projectsData.find((p) => p.id === Number(id));
 
   if (!project) {
-    return <h2 style={{ color: "white" }}>Project not found</h2>;
+    return <h2 style={{ color: "white", padding: "100px" }}>Project not found</h2>;
   }
 
   return (
     <div className="project-details-page">
 
-      {/* FULL BACKGROUND IMAGE */}
-      <div
-        className="project-hero"
-        style={{ backgroundImage: `url(${project.image})` }}
-      >
+      <div className="project-details-container">
 
-        {/* DARK OVERLAY */}
-        <div className="overlay"></div>
+        {/* LEFT IMAGE */}
+        <div
+          className="project-details-image"
+          style={{ backgroundImage: `url(${project.image})` }}
+        ></div>
 
-        {/* CONTENT OVER IMAGE */}
-        <div className="project-content">
+        {/* RIGHT CONTENT */}
+        <div className="project-details-content">
 
           <span className="type">{project.type}</span>
 
@@ -85,11 +138,18 @@ function ProjectDetails() {
 
           <p className="desc">{project.description}</p>
 
+        <ul className="details-list">
+        {project.details.map((item, index) => (
+        <li key={index}>✔ {item}</li>
+        ))}
+        </ul>
+
           <button onClick={() => navigate(-1)}>
-            ← Back
+            ← Back to Projects
           </button>
 
         </div>
+
       </div>
 
     </div>

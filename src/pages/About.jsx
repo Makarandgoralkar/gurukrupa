@@ -144,6 +144,54 @@ function About() {
         </div>
       </section>
 
+      {/* DEVELOPER SECTION */}
+<section className="developer-section" data-aos="fade-up">
+  <h2 className="developer-title">Crafted by Makarand Goralkar</h2>
+
+  <div className="developer-card premium-glass">
+    
+    <div className="developer-img">
+      <img src="/images/developer.jpeg" alt="Developer" />
+    </div>
+
+    <div className="developer-info">
+      <h2>Makarand Goralkar</h2>
+      <h4>Full Stack Developer</h4>
+
+      <p>
+        Passionate Full Stack Developer specializing in modern web applications
+        using React, Java, and scalable backend systems. Focused on performance,
+        UI/UX, and real-world solutions.
+      </p>
+
+      {/* SOCIAL ICONS */}
+      <div className="developer-socials">
+        <a href="https://github.com/Makarandgoralkar" target="_blank">
+          <i className="fab fa-github"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/makarand-goralkar-505788258/" target="_blank">
+          <i className="fab fa-linkedin"></i>
+        </a>
+
+        <a href="https://tubular-paprenjak-fb76d2.netlify.app/" target="_blank">
+          <i className="fas fa-globe"></i>
+        </a>
+      </div>
+
+      <button
+        className="contact-btn"
+        onClick={() =>
+          window.open("mailto:makarandgoralkar27@gmail.com")
+        }
+      >
+        Hire Me →
+      </button>
+    </div>
+
+  </div>
+</section>
+
       {/* CTA */}
       <section className="about-cta">
         <h2>Ready to Build Your Dream Project?</h2>

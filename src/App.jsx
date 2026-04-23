@@ -17,6 +17,8 @@ import Contact from "./pages/Contact";
 import AdminLogin from "./pages/AdminLogin";
 import Dashboard from "./pages/Dashboard";
 import ServiceDetails from "./pages/ServiceDetails";
+import Projects from "./pages/Projects";
+import ProjectDetails from "./pages/ProjectDetails";
 
 import Chatbot from "./components/Chatbot"; // 🤖 NEW
 import ScrollToTop from "./components/ScrollToTop";
@@ -44,6 +46,8 @@ function AnimatedRoutes() {
             }
           />
           <Route path="/service/:id" element={<ServiceDetails />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/projects/:id" element={<ProjectDetails />} />
         </Routes>
       </div>
     </div>

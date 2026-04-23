@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 import "../styles/Home.css";
+import { useNavigate } from "react-router-dom";
 
 const heroImages = [
   "/images/hero1.jpg",
@@ -9,6 +10,7 @@ const heroImages = [
 ];
 
 function Home() {
+  const navigate = useNavigate();
   const [currentHero, setCurrentHero] = useState(0);
 
   useEffect(() => {
@@ -21,78 +23,59 @@ function Home() {
   return (
     <div className="hero">
 
-      {/* ================= SEO ================= */}
-      <Helmet>
-        <title>
-          Shri Gurukrupa Constructions | Best Construction Company in Bhusawal
-        </title>
+  <Helmet>
+    <title>
+      Shri Gurukrupa Constructions | Best Construction Company in Bhusawal
+    </title>
+  </Helmet>
 
-        <meta
-          name="description"
-          content="Shri Gurukrupa Constructions offers premium residential, commercial, RCC design, renovation and interior solutions in Bhusawal with expert engineers."
-        />
+  {/* BACKGROUND SLIDER */}
+  {heroImages.map((img, index) => (
+    <div
+      key={index}
+      className={`hero-bg ${index === currentHero ? "active" : ""}`}
+      style={{ backgroundImage: `url(${img})` }}
+    />
+  ))}
 
-        <meta
-          name="keywords"
-          content="construction company Bhusawal, Shri Gurukrupa Constructions, home builder Bhusawal, RCC design, interior design Bhusawal"
-        />
+  {/* PREMIUM OVERLAY */}
+  <div className="hero-overlay"></div>
 
-        <link
-          rel="canonical"
-          href="https://gurukrupa-construction.web.app/"
-        />
-      </Helmet>
+  {/* CONTENT */}
+  <div className="hero-content">
 
-      {/* ================= BACKGROUND ================= */}
-      {heroImages.map((img, index) => (
-        <div
-          key={index}
-          className={`hero-bg ${index === currentHero ? "active" : ""}`}
-          style={{ backgroundImage: `url(${img})` }}
-        />
-      ))}
+    <h1 className="hero-title">
+      <span className="line">Shri Gurukrupa</span>
+      <span className="line gold">Constructions</span>
+      <span className="line sub">Best Construction Company in Bhusawal</span>
+    </h1>
 
-      <div className="hero-overlay"></div>
+    <p className="hero-subtitle">
+      Premium residential & commercial construction with
+      world-class architecture, RCC expertise, and trusted engineering.
+    </p>
 
-      {/* ================= CONTENT ================= */}
-      <div className="hero-content">
+    <div className="hero-buttons">
+      <button 
+  className="btn-glass"
+  onClick={() => navigate("/projects")}
+>
+  Explore Projects
+</button>
 
-        {/* 🔥 ANIMATED BRAND HEADING */}
-        <h1 className="hero-title">
-          <span className="brand-name">
-            Shri Gurukrupa Constructions
-          </span>
-
-          <span className="hero-highlight">
-            Best Construction Company in Bhusawal
-          </span>
-        </h1>
-
-        {/* 🔥 DYNAMIC SUBTITLE */}
-        <p className="hero-subtitle">
-          We build <span>premium homes</span> & <span>commercial spaces</span>
-          with modern architecture, RCC expertise, and trusted engineering excellence.
-        </p>
-
-        {/* BUTTONS */}
-        <div className="hero-buttons">
-          <a href="/contact">
-            <button className="btn-primary">Get Free Quote</button>
-          </a>
-
-          <a href="/about">
-            <button className="btn-outline">View Projects</button>
-          </a>
-        </div>
-
-        {/* TRUST */}
-        <div className="trust-badges">
-          ⭐ 4.8 Rating &nbsp; | &nbsp; 🏗️ 100+ Projects &nbsp; | &nbsp; 👷 25+ Engineers
-        </div>
-
-      </div>
-
+      <a href="/contact">
+        <button className="btn-gold">Book Consultation</button>
+      </a>
     </div>
+
+    {/* SCROLL INDICATOR */}
+    <div className="scroll-indicator">
+      <span></span>
+    </div>
+
+  </div>
+
+</div>
   );
 }
 

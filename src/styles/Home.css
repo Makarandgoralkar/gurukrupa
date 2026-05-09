@@ -68,6 +68,10 @@
   animation: reveal 1s forwards;
 }
 
+.white-text {
+  color: #ffffff;
+}
+
 .line:nth-child(2) {
   animation-delay: 0.4s;
 }

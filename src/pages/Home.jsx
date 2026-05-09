@@ -45,7 +45,7 @@ function Home() {
   <div className="hero-content">
 
     <h1 className="hero-title">
-      <span className="line">Shri Gurukrupa</span>
+      <span className="line white-text">Shri Gurukrupa</span>
       <span className="line gold">Constructions</span>
       <span className="line sub">Best Construction Company in Bhusawal</span>
     </h1>
